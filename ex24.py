@@ -27,7 +27,8 @@ def secret_formula(started):
 
 
 start_point = 10000
-beans, jars, crates = secret_formula(start_point)
+beans, jars, crates = secret_formula(start_point) # function returns a 3-item list
+# the list is assigned to 3 variables
 
 # remember that this is another way to format a string
 print("With a starting point of: {}".format(start_point))
